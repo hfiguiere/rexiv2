@@ -47,3 +47,6 @@ path = "tst/main.rs"
 
 [badges]
 travis-ci = { repository = "felixc/rexiv2" }
+
+[patch.crates-io]
+gexiv2-sys = { git = "https://github.com/hfiguiere/gexiv2-sys.git", rev = "da35807e9f110d9f9b439132f3425b4e6dd8a85e" }
